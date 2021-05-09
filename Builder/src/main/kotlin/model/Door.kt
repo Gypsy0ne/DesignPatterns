@@ -1,3 +1,3 @@
 package model
 
-data class Door(val roomFrom: Int, val roomTo: Int)
+internal data class Door(val roomFrom: Int, val roomTo: Int)
