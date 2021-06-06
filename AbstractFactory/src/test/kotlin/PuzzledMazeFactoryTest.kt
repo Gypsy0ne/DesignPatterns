@@ -13,6 +13,7 @@ class PuzzledMazeFactoryTest {
         val roomFrom = factory.makeRoom(2)
         val roomTo = factory.makeRoom(1)
         val door = factory.makeDoor(roomFrom = roomFrom, roomTo = roomTo)
+
         // then
         assertThat(door).isInstanceOf(Door.LockedDoor::class.java)
     }
