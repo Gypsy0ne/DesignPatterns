@@ -23,7 +23,7 @@ class RegularMazeFactoryTest {
         // given
         val room = factory.makeRoom(2)
 
-        // thenk
+        // then
         assertThat(room).isInstanceOf(Room.RegularRoom::class.java)
     }
 }
